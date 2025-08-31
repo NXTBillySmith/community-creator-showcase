@@ -2,8 +2,6 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Communities from "@/components/Communities";
-import Portfolio from "@/components/Portfolio";
-import Contact from "@/components/Contact";
 
 const Index = () => {
   return (
@@ -14,8 +12,6 @@ const Index = () => {
       </div>
       <Skills />
       <Communities />
-      <Portfolio />
-      <Contact />
     </div>
   );
 };

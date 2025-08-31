@@ -37,17 +37,17 @@ const Hero = () => {
             variant="default" 
             size="lg"
             className="bg-primary text-primary-foreground hover:shadow-glow transition-all duration-300"
-            onClick={() => scrollToSection('portfolio')}
+            onClick={() => scrollToSection('skills')}
           >
-            View My Work
+            View My Skills
           </Button>
           <Button 
             variant="outline" 
             size="lg"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-            onClick={() => scrollToSection('contact')}
+            onClick={() => scrollToSection('communities')}
           >
-            Get In Touch
+            My Experience
           </Button>
         </div>
         
