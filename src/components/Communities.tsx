@@ -10,9 +10,9 @@ const Communities = () => {
       role: "Community Manager",
       description: "Led community growth and engagement for a premier DayZ gaming community, fostering an active player base and organizing regular events.",
       achievements: [
-        "Grew community to 5,000+ active members",
-        "Organized weekly PvP tournaments",
-        "Implemented custom Discord bot features",
+        "Grew community to 50,000+ active players",
+        "Organized regular PvP events and competitions",
+        "Successfully managed and coordinated a staff team of 20+ members",
         "Maintained 85% member retention rate"
       ],
       color: "bg-red-500/10 text-red-400 border-red-500/20"
