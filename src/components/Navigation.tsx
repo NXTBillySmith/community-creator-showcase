@@ -39,7 +39,7 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent hover:scale-105 transition-transform"
           >
-            YourName.dev
+            BillySmith.dev
           </button>
           
           {/* Desktop Navigation */}
