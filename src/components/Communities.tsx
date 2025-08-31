@@ -34,12 +34,12 @@ const Communities = () => {
       name: "Moody Krows",
       game: "NFT Collection",
       role: "Community Manager",
-      description: "Built and managed the community around an innovative NFT collection, driving engagement and fostering collector relationships.",
+      description: "Built and managed the community around an innovative NFT collection, driving engagement and fostering collector relationships for a highly successful launch.",
       achievements: [
-        "Launched community from 0 to 2,000+ members",
-        "Coordinated marketing campaigns",
-        "Managed social media presence",
-        "Facilitated holder events and rewards"
+        "Grew community to 20,000+ members",
+        "Successfully sold out entire NFT collection",
+        "Generated approximately $15,000,000 in gross sales",
+        "Coordinated marketing campaigns and holder events"
       ],
       color: "bg-purple-500/10 text-purple-400 border-purple-500/20"
     }
