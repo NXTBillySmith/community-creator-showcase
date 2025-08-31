@@ -21,12 +21,12 @@ const Communities = () => {
       name: "Rusty Haven",
       game: "Rust",
       role: "Community Manager",
-      description: "Managed player relations and server operations for a thriving Rust community, ensuring fair play and positive gaming experiences.",
+      description: "Developed and managed the complete server infrastructure and Discord community for a thriving Rust server, creating custom gameplay experiences.",
       achievements: [
-        "Maintained 100+ concurrent players",
-        "Developed community guidelines",
-        "Coordinated with development team",
-        "Handled player disputes and moderation"
+        "Developed entire server from ground up",
+        "Created custom plugins for enhanced gameplay",
+        "Built and configured complete Discord ecosystem",
+        "Maintained 100+ concurrent players daily"
       ],
       color: "bg-orange-500/10 text-orange-400 border-orange-500/20"
     },
