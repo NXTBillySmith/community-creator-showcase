@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Video, MessageCircle, Gamepad2 } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import ParticleBackground from "./ParticleBackground";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -10,15 +11,18 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-background/95 to-background/90">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-20"
+        className="absolute inset-0 bg-cover bg-center opacity-10"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
       
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-hero opacity-80" />
+      {/* Darker Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-background/95 to-muted/80" />
+      
+      {/* Particle Background */}
+      <ParticleBackground />
       
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
@@ -53,14 +57,29 @@ const Hero = () => {
         
         {/* Social Links */}
         <div className="flex gap-6 justify-center mb-12">
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Github size={24} />
+          <a 
+            href="https://www.tiktok.com/@huntertexido" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Video size={24} />
           </a>
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Linkedin size={24} />
+          <a 
+            href="https://discord.gg/a8UKfByD5y" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+          >
+            <MessageCircle size={24} />
           </a>
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Mail size={24} />
+          <a 
+            href="https://steamcommunity.com/id/billyyysmith" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
+          >
+            <Gamepad2 size={24} />
           </a>
         </div>
         
